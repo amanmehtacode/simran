@@ -4697,18 +4697,10 @@
                     "https://webflow.com?utm_campaign=brandjs"
                   )),
                   (r = t("<img>")
-                    .attr(
-                      "src",
-                      ""
-                    )
+                    .attr("src", "")
                     .attr("alt", "")
                     .css({ marginRight: "8px", width: "16px" })),
-                  (a = t("<img>")
-                    .attr(
-                      "src",
-                      ""
-                    )
-                    .attr("alt", "Made in Webflow")),
+                  (a = t("<img>").attr("src", "").attr("alt", "")),
                   n.append(r, a),
                   n[0])),
                 d(),
